@@ -18,5 +18,3 @@ runtime 包含：在模块交互时，连接模块所需的加载和解析逻辑
 1. webpack4自带两种优化方式 mode: 'development'   mode: 'production'
 2. 自己自定优化方式的话在config.optimization
 
-
-引入webpack-dev-server启动node服务并像vue一样直接打开页面
