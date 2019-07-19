@@ -1,5 +1,5 @@
 记录下写的过程中遇到的问题：
-1. Child html-webpack-plugin for "index.html"  ------ Entrypoint undefined = ./index.html
+1. Child html-webpack-plugin for "index.html"  ------ Entrypoint undefined = ./index.html  ------- 由于没有htmlPlugin的原文件导致
     出现配置： 
       config.plugins >> {
         new HtmlWebpackPlugin({

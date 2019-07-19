@@ -9,6 +9,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
+    publicPath: path.resolve(__dirname, 'dist'),
     filename: '[name].bindle.[chunkhash:5].js'
   },
   mode: 'development',
